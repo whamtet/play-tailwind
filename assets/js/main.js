@@ -30,7 +30,7 @@
         if (ud_header.classList.contains("sticky")) {
           document.querySelector(".header-logo").src =
             "assets/images/logo/logo-white.svg"
-        } 
+        }
       }
     }
 
@@ -146,11 +146,6 @@
     document.documentElement.classList.add('dark');
     localStorage.setItem('theme', 'dark');
   };
-
-  // call theme switch on clicking buttons
-  themeSwitcher.addEventListener('click', () => {
-    themeSwitch();
-  });
 
   // invoke theme check on initial load
   themeCheck();

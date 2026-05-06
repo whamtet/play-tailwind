@@ -1,5 +1,4 @@
 d=dist
-mkdir $d
 cp index.html $d
 cp reply.html $d
 
@@ -42,7 +41,7 @@ cp assets/images/footer/shape-3.svg $d/assets/images/fooer
 cp assets/images/logo/logo-white.svg $d/assets/images/logo
 
 cp assets/css/swiper-bundle.min.css $d/assets/css/swiper-bundle.min.css
-cp assets/css/animate.css $d/assets/css/swiper-bundle.min.css
+cp assets/css/animate.css $d/assets/css/animate.css
 mv $d/output.css $d/src/css/tailwind.css
 
 cp assets/js/wow.min.js $d/assets/js/wow.min.js
@@ -53,3 +52,4 @@ cp assets/images/footer/shape-3.svg $d/assets/images/footer/shape-3.svg
 
 cp assets/css/animate.css $d/assets/css/animate.css
 cp assets/images/logo/logo.svg $d/assets/images/logo
+cp assets/images/favicon.png $d/assets/images/favicon.png
